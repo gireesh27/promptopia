@@ -42,5 +42,5 @@ const handler = NextAuth({
     },
   }
 })
-export const runtime = process.env.NEXT_PUBLIC_API_RUNTIME | "edge" 
+export const runtime = "edge" 
 export { handler as GET, handler as POST }

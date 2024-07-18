@@ -12,4 +12,4 @@ export const GET = async (request) => {
         return new Response("Failed to fetch all prompts", { status: 500 })
     }
 } 
-export const runtime = process.env.NEXT_PUBLIC_API_RUNTIME | "edge";
+export const runtime = "edge" 

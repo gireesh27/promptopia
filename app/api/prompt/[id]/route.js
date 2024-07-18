@@ -52,4 +52,4 @@ export const DELETE = async (request, { params }) => {
         return new Response("Error deleting prompt", { status: 500 });
     }
 };
-export const runtime = process.env.NEXT_PUBLIC_API_RUNTIME | "edge";
+export const runtime = "edge" 

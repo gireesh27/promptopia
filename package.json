@@ -21,5 +21,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "vercel": "^35.0.3"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.12.1"
   }
 }

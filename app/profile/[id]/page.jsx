@@ -32,4 +32,4 @@ const UserProfile = ({ params }) => {
 };
 
 export default UserProfile;
-export const runtime = 'edge';
+export const runtime = process.env.NEXT_PUBLIC_API_RUNTIME | "edge";

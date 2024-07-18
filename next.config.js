@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-    serverComponentsExternalPackages: ["mongoose"],
-  },
+  // experimental: {
+  //   appDir: true,
+  //   serverComponentsExternalPackages: ["mongoose"],
+  // },
   images: {
     domains: ['lh3.googleusercontent.com'],
   },
@@ -16,4 +16,4 @@ const nextConfig = {
   }
 }
 
-module.exports = nextConfig
+export default nextConfig

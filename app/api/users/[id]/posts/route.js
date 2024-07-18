@@ -12,3 +12,4 @@ export const GET = async (request, { params }) => {
         return new Response("Failed to fetch prompts created by user", { status: 500 })
     }
 } 
+export const runtime = 'edge';

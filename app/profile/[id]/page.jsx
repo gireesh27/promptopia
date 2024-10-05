@@ -32,4 +32,3 @@ const UserProfile = ({ params }) => {
 };
 
 export default UserProfile;
-export const runtime = "edge" 

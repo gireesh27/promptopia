@@ -59,4 +59,3 @@ const MyProfile = () => {
 };
 
 export default MyProfile;
-export const runtime = "edge" 
